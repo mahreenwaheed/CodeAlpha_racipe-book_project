@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <style>
+        .form-container{
+         color: white;
+            position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ;
+    width: 380px;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px rgb(92, 91, 91);
+        }
+        .button{
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body style="background-color: chocolate;">
+        <h1 style="text-align: center; color: white;">Deleted Recipe</h1>
+    <div class="form-container">
+    <form  action="delete.php" method="post">
+       
+    
+    <label for="id">ID:</label>
+    <input type="id" placeholder="Enter Id"  name="id" required>
+    <br>
+    <br>
+  
+    <div class="button">
+        <button type="sign-up"  value="Submit" name="create" >
+            Delete </button>
+        </div>
+
+      </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
